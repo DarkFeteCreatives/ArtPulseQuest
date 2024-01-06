@@ -82,7 +82,6 @@ body {
     cursor: pointer;
 }
 
-/* Mobile Menu screen styles */
 @media screen and (max-width: 768px) {
     .hamburger-menu {
         display: block;
@@ -107,7 +106,6 @@ body {
         width: 100%;
     }
 }
-
 
 .welcome {
     text-align: center;
@@ -201,7 +199,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    background: white;
+    background: #ffffff00;
 }
 
 #mc_embed_shell {
@@ -232,13 +230,11 @@ body {
     color: black;
 }
 
-
-
 .footer {
     width: 100%;
     background-color: black;
     color: white;
-    display: flex;
+    display: none;  /*Change to Flex when Ready*/
     justify-content: space-around;
     padding: 20px;
     text-align: left;
@@ -282,8 +278,50 @@ body {
     background: black;
 }
 
+.spacer {
+    height: 75px;
+    width: 100%;
+    margin-top: 20px;
+    background: transparent;
+}
 
+.atitle {
+    width: 98%;
+    color: black;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: none;
+    
+}
 
+.para {
+    width: 98%;
+    color: black;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: none;
+}
+
+.para ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.para p {
+    white-space: pre-line;
+}
 
 
 
