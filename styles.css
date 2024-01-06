@@ -194,6 +194,49 @@ body {
     max-width: 100%;
 }
 
+.newsletter {
+	width: 100%;
+	height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: white;
+}
+
+#mc_embed_shell {
+    background: #b6b6b6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#mc_embed_signup {
+    text-align: center;
+    line-height: 2;
+}
+
+#mc-embedded-subscribe.button {
+    background: black;
+    color: #fdff00;
+    height: 50px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid gold;
+}
+
+#mc-embedded-subscribe.button:hover {
+    background: yellow;
+    color: black;
+}
+
+
+
+
+
+
+
 
 
 
